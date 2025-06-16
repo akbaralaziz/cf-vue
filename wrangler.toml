@@ -1,0 +1,7 @@
+name = "cf-vue"
+compatibility_date = "2025-06-16"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cf-vue"
+database_id = "29271d11-bf4d-4f75-8d42-84350e1360f0"
