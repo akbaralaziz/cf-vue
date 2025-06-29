@@ -1,25 +1,25 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+
+// Import view
+import CreateForm from '../views/CreateForm.vue'
+
+const routes = [
+  {
+    path: '/',
+    name: 'CreateForm',
+    component: CreateForm
+  },
+  // Tambahkan rute lain di sini jika perlu
+  // {
+  //   path: '/about',
+  //   name: 'About',
+  //   component: () => import('../views/About.vue')
+  // }
+]
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: HomeView,
-    },
-    {
-      path: '/products',
-      name: 'create-product',
-      component: () => import('../views/Createform.vue'),
-    },
-    {
-      path: '/products/:id',
-      name: 'edit-product',
-      component: () => import('../views/EditProductView.vue'),
-    },
-  ],
+  routes
 })
 
 export default router
