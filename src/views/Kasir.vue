@@ -127,7 +127,7 @@ input {
 button {
   padding: 0.5rem 1rem;
   font-size: 0.95rem;
-  background-color: #3498db;
+  background-color: #002842;
   color: white;
   border: none;
   border-radius: 6px;
@@ -143,7 +143,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
-  background-color: #fff;
+  background-color: #fc0707;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   border-radius: 8px;
   overflow: hidden;
