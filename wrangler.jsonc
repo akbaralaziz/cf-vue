@@ -11,7 +11,7 @@
     {
       "binding": "DB",
       "database_name": "cf-vue",
-      "database_id": "24c04e963-d30f-488f-87a3-3711831919e4",
+      "database_id": "4c04e963-d30f-488f-87a3-3711831919e4",
       "migrations_dir": "./migrations"
     }
   ]
