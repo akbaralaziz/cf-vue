@@ -2,14 +2,12 @@ import { Hono } from 'hono'
 
 const app = new Hono()
 
-// GET semua transaksi
 app.get('/api/transaksi', async (c) => {
   const db = c.env.DB
   const { results } = await db.prepare('SELECT * FROM transaksi ORDER BY created_at DESC').all()
   return c.json(results)
 })
 
-// POST buat transaksi baru
 app.post('/api/transaksi', async (c) => {
   const db = c.env.DB
   const data = await c.req.json()
@@ -22,7 +20,6 @@ app.post('/api/transaksi', async (c) => {
   return c.text('Transaksi berhasil ditambahkan', 201)
 })
 
-// PUT update transaksi
 app.put('/api/transaksi/:id', async (c) => {
   const db = c.env.DB
   const id = c.req.param('id')
@@ -36,7 +33,6 @@ app.put('/api/transaksi/:id', async (c) => {
   return c.text('Transaksi berhasil diperbarui')
 })
 
-// DELETE transaksi
 app.delete('/api/transaksi/:id', async (c) => {
   const db = c.env.DB
   const id = c.req.param('id')

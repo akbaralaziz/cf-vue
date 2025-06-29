@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Kasir Sederhana</h2>
+    <h2>TOKO H. MAKSUM</h2>
     <input v-model="nama" placeholder="Nama Barang" />
     <input v-model="harga" type="number" placeholder="Harga" />
     <input v-model="jumlah" type="number" placeholder="Jumlah" />
