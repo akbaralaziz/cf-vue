@@ -23,7 +23,7 @@ export default {
       }
 
       // Kirim ke API oke
-      fetch('https://your-worker-subdomain.workers.dev/api/barang', {
+      fetch('https://cf-vue.akbaralaziz9.workers.dev/api/barang', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
