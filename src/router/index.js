@@ -1,15 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import CreateForm from '../views/CreateForm.vue'
+import Kasir from '../views/Kasir.vue'
+
+const routes = [
+  {
+    path: '/',
+    name: 'Kasir',
+    component: Kasir
+  }
+]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes : [
-    {
-    path: '/',
-    name: 'CreateForm',
-    component: CreateForm
-  },
-  ]
+  history: createWebHistory(),
+  routes
 })
 
 export default router
