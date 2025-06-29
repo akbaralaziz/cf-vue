@@ -99,3 +99,88 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 180px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+  background-color: #f7f7f7;
+  color: #555;
+}
+
+td button {
+  margin-right: 5px;
+  background-color: #27ae60;
+}
+
+td button:last-child {
+  background-color: #e74c3c;
+}
+
+td button:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+  .form-group {
+    flex-direction: column;
+  }
+
+  input {
+    width: 100%;
+  }
+}
+</style>
