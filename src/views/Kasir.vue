@@ -99,7 +99,6 @@ export default {
   }
 }
 </script>
-
 <style scoped>
 body {
   font-family: Arial, sans-serif;
@@ -128,7 +127,7 @@ input {
 button {
   padding: 0.5rem 1rem;
   font-size: 0.95rem;
-  background-color: #16fd01;
+  background-color: #3498db;
   color: white;
   border: none;
   border-radius: 6px;
@@ -137,14 +136,14 @@ button {
 }
 
 button:hover {
-  background-color: #00ff15;
+  background-color: #2980b9;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
-  background-color: #04fcef;
+  background-color: #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   border-radius: 8px;
   overflow: hidden;
@@ -158,16 +157,16 @@ th, td {
 
 th {
   background-color: #f7f7f7;
-  color: #030303;
+  color: #555;
 }
 
 td button {
   margin-right: 5px;
-  background-color: #f9fd02;
+  background-color: #27ae60;
 }
 
 td button:last-child {
-  background-color: #e73c3c;
+  background-color: #e74c3c;
 }
 
 td button:hover {
