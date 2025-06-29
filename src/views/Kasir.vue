@@ -137,7 +137,7 @@ button {
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #00ff15;
 }
 
 table {
@@ -163,11 +163,11 @@ th {
 
 td button {
   margin-right: 5px;
-  background-color: #27ae60;
+  background-color: #f9fd02;
 }
 
 td button:last-child {
-  background-color: #e74c3c;
+  background-color: #e73c3c;
 }
 
 td button:hover {
