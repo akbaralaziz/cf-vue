@@ -22,7 +22,7 @@ export default {
         jumlah: parseInt(this.jumlah)
       }
 
-      // Kirim ke API
+      // Kirim ke API oke
       fetch('https://your-worker-subdomain.workers.dev/api/barang', {
         method: 'POST',
         headers: {
