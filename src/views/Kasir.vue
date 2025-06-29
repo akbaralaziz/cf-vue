@@ -143,7 +143,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
-  background-color: #fc0707;
+  background-color: #ffffff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   border-radius: 8px;
   overflow: hidden;
@@ -162,11 +162,11 @@ th {
 
 td button {
   margin-right: 5px;
-  background-color: #27ae60;
+  background-color: #a5ae27;
 }
 
 td button:last-child {
-  background-color: #e74c3c;
+  background-color: #ee1b04;
 }
 
 td button:hover {
